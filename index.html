@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Logo.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talk Town Media Network | Connecting Stories, Connecting Peoples</title>
+    <meta name="description" content="Talk Town Media Network - Connecting stories and people through high-quality Podcasts, Promotion Videos, and Event Coverage. Advertise with us today." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/style.css" />
+    <!-- GLightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+</head>
+<body class="loading">
+    <!-- Siteloader: "The Pulse" -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="pulse-container">
+                <div class="pulse-ring"></div>
+                <div class="pulse-ring"></div>
+                <div class="pulse-ring"></div>
+                <div class="sound-bars">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="loader-text">
+                <span class="letter">T</span>
+                <span class="letter">A</span>
+                <span class="letter">L</span>
+                <span class="letter">K</span>
+                <span class="letter spacer"> </span>
+                <span class="letter">T</span>
+                <span class="letter">O</span>
+                <span class="letter">W</span>
+                <span class="letter">N</span>
+            </div>
+        </div>
+    </div>
+
+    <header id="header">
+        <nav class="container">
+            <div class="logo">
+                <img src="/Logo.jpeg" alt="Talk Town Logo" id="nav-logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#studio">The Studio</a></li>
+                <li><a href="#book">Book Now</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <canvas id="hero-particles"></canvas>
+            <div class="hero-bg">
+                <img src="/assets/hero.png" alt="Broadcast Studio">
+            </div>
+            <div class="hero-content container">
+                <div class="aura-glow"></div>
+                <h1 class="reveal">Talk Town Media Network</h1>
+                <p class="tagline reveal">Connecting Stories, Connecting Peoples</p>
+                <div class="hero-btns reveal">
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                    <a href="#book" class="btn btn-outline">Advertise With Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services container">
+            <h2 class="section-title reveal">Our Services</h2>
+            <div class="services-grid">
+                <!-- Podcast -->
+                <div id="podcast" class="services-card reveal">
+                    <div class="card-img">
+                        <img src="/assets/podcast.png" alt="Podcast">
+                    </div>
+                    <div class="card-content">
+                        <h3>Podcast</h3>
+                        <p>Engaging conversations with industry leaders and storytellers. Watch our latest sessions on YouTube.</p>
+                        <a href="https://www.youtube.com/@Sltalktown" target="_blank" class="btn-text">Watch on YouTube →</a>
+                    </div>
+                </div>
+                <!-- Promotion Video -->
+                <div id="promotion" class="services-card reveal">
+                    <div class="card-img">
+                        <img src="/assets/promotion.png" alt="Promotion Video">
+                    </div>
+                    <div class="card-content">
+                        <h3>Promotion Video</h3>
+                        <p>High-impact video production for businesses and personal brands. Elevate your presence.</p>
+                    </div>
+                </div>
+                <!-- Event Coverage -->
+                <div id="events" class="services-card reveal">
+                    <div class="card-img">
+                        <img src="/assets/event.png" alt="Event Coverage">
+                    </div>
+                    <div class="card-content">
+                        <h3>Event Coverage</h3>
+                        <p>Capturing your most precious moments and professional events with cinematic quality.</p>
+                    </div>
+                </div>
+                <!-- Social Media Flyer Creation -->
+                <div id="flyers" class="services-card reveal">
+                    <div class="card-img">
+                        <img src="/assets/flyer.png" alt="Flyer Creation">
+                    </div>
+                    <div class="card-content">
+                        <h3>Flyer Creation</h3>
+                        <p>High-impact, custom-designed social media flyers for your business or events.</p>
+                    </div>
+                </div>
+                <!-- Boosting -->
+                <div id="boosting" class="services-card reveal">
+                    <div class="card-img">
+                        <img src="/assets/boosting.png" alt="Social Media Boosting">
+                    </div>
+                    <div class="card-content">
+                        <h3>Social Media Boosting</h3>
+                        <p>Expand your reach and skyrocket engagement with our data-driven boosting services.</p>
+                    </div>
+                </div>
+                <!-- Advertising -->
+                <div id="ad-services" class="services-card reveal">
+                    <div class="card-img">
+                        <img src="/assets/hero.png" alt="Advertising">
+                    </div>
+                    <div class="card-content">
+                        <h3>Full Scale Advertising</h3>
+                        <p>Strategy-driven advertising campaigns across digital and traditional media channels.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Studio Section (BTS) -->
+        <section id="studio" class="studio">
+            <div class="container">
+                <div class="studio-header reveal">
+                    <h2 class="section-title">Inside the Studio</h2>
+                    <p class="section-subtitle">Experience the heartbeat of Talk Town. From the first mic-check to the final render.</p>
+                </div>
+
+                <div class="gallery-filters reveal">
+                    <button class="filter-btn active" data-filter="all">All Moments</button>
+                    <button class="filter-btn" data-filter="session">Live Sessions</button>
+                    <button class="filter-btn" data-filter="bts">Behind the Scenes</button>
+                </div>
+                
+                <div class="gallery-mosaic">
+                    <!-- Featured Video - Wide -->
+                    <div class="gallery-item video reveal horizontal tilt-card" data-category="session">
+                        <a href="/BTS/WhatsApp Video 2026-03-30 at 10.36.40 PM.mp4" class="glightbox" data-gallery="studio">
+                            <video loop muted playsinline src="/BTS/WhatsApp Video 2026-03-30 at 10.36.40 PM.mp4"></video>
+                            <div class="item-overlay">
+                                <span class="badge">Live Session</span>
+                                <div class="video-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="white" d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Photos Set 1 -->
+                    <div class="gallery-item reveal tilt-card" data-category="bts">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.36.41 PM.jpeg" class="glightbox" data-gallery="studio" data-title="Studio Setup" data-description="Professional recording environment.">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.36.41 PM.jpeg" alt="Studio Setup">
+                        </a>
+                    </div>
+                    <div class="gallery-item reveal tall tilt-card" data-category="session">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.36.43 PM.jpeg" class="glightbox" data-gallery="studio" data-title="In Conversation" data-description="Capturing the depth of stories.">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.36.43 PM.jpeg" alt="Podcast in Action">
+                        </a>
+                    </div>
+                    <div class="gallery-item reveal tilt-card" data-category="bts">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.36.42 PM.jpeg" class="glightbox" data-gallery="studio" data-title="Equipment" data-description="High-end sound engineering.">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.36.42 PM.jpeg" alt="Recording Day">
+                        </a>
+                    </div>
+
+                    <!-- Video 2 -->
+                    <div class="gallery-item video reveal tilt-card" data-category="bts">
+                        <a href="/BTS/WhatsApp Video 2026-03-30 at 10.36.52 PM.mp4" class="glightbox" data-gallery="studio">
+                            <video loop muted playsinline src="/BTS/WhatsApp Video 2026-03-30 at 10.36.52 PM.mp4"></video>
+                            <div class="item-overlay">
+                                <span class="badge">BTS Wrap</span>
+                                <div class="video-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="white" d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="gallery-item reveal horizontal tilt-card" data-category="bts">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.36.44 PM.jpeg" class="glightbox" data-gallery="studio">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.36.44 PM.jpeg" alt="Sound Mixer">
+                        </a>
+                    </div>
+                    
+                    <div class="gallery-item reveal tilt-card" data-category="session">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.36.45 PM.jpeg" class="glightbox" data-gallery="studio">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.36.45 PM.jpeg" alt="Behind the Mic">
+                        </a>
+                    </div>
+
+                    <!-- Video 3 - Tall -->
+                    <div class="gallery-item video reveal tall tilt-card" data-category="session">
+                        <a href="/BTS/WhatsApp Video 2026-03-30 at 10.37.03 PM.mp4" class="glightbox" data-gallery="studio">
+                            <video loop muted playsinline src="/BTS/WhatsApp Video 2026-03-30 at 10.37.03 PM.mp4"></video>
+                            <div class="item-overlay">
+                                <span class="badge">Session Highlight</span>
+                                <div class="video-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="white" d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- More Items Set 2 -->
+                    <div class="gallery-item reveal tilt-card" data-category="session">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.36.46 PM.jpeg" class="glightbox" data-gallery="studio">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.36.46 PM.jpeg" alt="Guest Session">
+                        </a>
+                    </div>
+                    <div class="gallery-item reveal horizontal tilt-card" data-category="bts">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.36.48 PM.jpeg" class="glightbox" data-gallery="studio">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.36.48 PM.jpeg" alt="Backstage Vibe">
+                        </a>
+                    </div>
+
+                    <!-- Video 4 - Wide -->
+                    <div class="gallery-item video reveal horizontal tilt-card" data-category="bts">
+                        <a href="/BTS/WhatsApp Video 2026-03-30 at 10.37.09 PM.mp4" class="glightbox" data-gallery="studio">
+                            <video loop muted playsinline src="/BTS/WhatsApp Video 2026-03-30 at 10.37.09 PM.mp4"></video>
+                            <div class="item-overlay">
+                                <span class="badge">The Team</span>
+                                <div class="video-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="white" d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item reveal tilt-card" data-category="bts">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.36.50 PM.jpeg" class="glightbox" data-gallery="studio">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.36.50 PM.jpeg" alt="Technical Layout">
+                        </a>
+                    </div>
+                    <div class="gallery-item reveal tall tilt-card" data-category="session">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.36.51 PM.jpeg" class="glightbox" data-gallery="studio">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.36.51 PM.jpeg" alt="In the Pulse">
+                        </a>
+                    </div>
+                    <div class="gallery-item reveal tilt-card" data-category="session">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.36.53 PM.jpeg" class="glightbox" data-gallery="studio">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.36.53 PM.jpeg" alt="Studio Host">
+                        </a>
+                    </div>
+                    <div class="gallery-item reveal horizontal tilt-card" data-category="session">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.36.55 PM.jpeg" class="glightbox" data-gallery="studio">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.36.55 PM.jpeg" alt="Action Shot">
+                        </a>
+                    </div>
+                <div class="gallery-item reveal tilt-card" data-category="bts">
+                        <a href="/BTS/WhatsApp Image 2026-03-30 at 10.37.04 PM.jpeg" class="glightbox" data-gallery="studio">
+                            <img src="/BTS/WhatsApp Image 2026-03-30 at 10.37.04 PM.jpeg" alt="Final Prep">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advertise Section -->
+        <section id="advertise" class="advertise">
+            <div class="container ad-split">
+                <div class="ad-info reveal">
+                    <h2 class="section-title">Advertise With Us</h2>
+                    <p>Partner with the most engaged media network in the region. We offer professional advertising solutions tailored for your business growth.</p>
+                    <div class="ad-package-list">
+                        <div class="ad-package">
+                            <h4>Special Ad Packages</h4>
+                            <p>Customized tiers for Video Ads, Radio Spots, and Social Media promotions.</p>
+                        </div>
+                    </div>
+                    <a href="tel:0715542820" class="btn btn-primary">Download Rate Card</a>
+                </div>
+                <div class="ad-cta reveal">
+                    <div class="glass-box">
+                        <h3>Grow Your Business</h3>
+                        <p>Get in touch for a custom quote and strategy session.</p>
+                        <div class="contact-chips">
+                            <a href="tel:0715542820" class="chip">071 554 2820</a>
+                            <a href="tel:0766528596" class="chip">076 652 8596</a>
+                        </div>
+                        <a href="mailto:kavindukeshava@gmail.com" class="btn btn-outline block">Email Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section id="book" class="booking-section container">
+            <div class="booking-grid">
+                <div class="booking-header reveal">
+                    <h2 class="section-title">Book Now</h2>
+                    <p>Ready to start your project? Fill out the form below and our team will get back to you within 24 hours.</p>
+                </div>
+                <form class="booking-form reveal">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Contact Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="07x xxxx xxx" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a Service</option>
+                                <option value="podcast">Podcast</option>
+                                <option value="video">Promotion Video</option>
+                                <option value="events">Event Coverage</option>
+                                <option value="flyer">Flyer Creation</option>
+                                <option value="boosting">Social Media Boosting</option>
+                                <option value="ads">Advertising</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Location</label>
+                            <input type="text" id="location" name="location" placeholder="City / Area" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary block">Send Booking Request</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about container">
+            <div class="reveal">
+                <h2 class="section-title">About Us</h2>
+                <p>Talk Town Media Network is a premier media production and broadcasting agency dedicated to connecting stories and people. We specialize in high-quality podcast production, professional video creation, and comprehensive event coverage.</p>
+            </div>
+        </section>
+
+        <!-- Floating WhatsApp Widget -->
+        <a href="https://wa.me/94715542820" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24" class="whatsapp-icon"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.216 8.216 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23-1.57 0-3.09-.45-4.41-1.3l-.32-.2-3.09.81.83-3.01-.21-.34a8.196 8.196 0 0 1-1.26-4.39c.01-4.54 3.71-8.24 8.24-8.24m-3.53 4.75c-.21.01-.4.07-.56.19-.16.12-.29.3-.37.52-.16.48-.36 1.44.15 2.58.5 1.13 1.36 2.18 2.37 2.9.1.07.21.13.31.2.14.09.28.16.43.24.42.22.8.4 1.14.51.35.1.72.16 1.05.07.36-.1.97-.4 1.1-.77.13-.38.13-.7 0-.77-.13-.07-.45-.23-.97-.48-.52-.26-.87-.43-1.01-.46-.14-.03-.25-.03-.36.14-.11.17-.43.53-.53.64-.1.11-.2.13-.36.04-.16-.09-.68-.25-1.3-.8-1.21-1.08-1.35-1.52-1.42-1.63-.07-.11-.01-.17.07-.25.07-.07.16-.19.24-.28.08-.1.11-.16.16-.27.05-.11.02-.2-.01-.27-.03-.07-.36-.87-.5-1.19-.1-.23-.23-.31-.38-.3z"/></svg>
+        </a>
+    </main>
+
+    <footer id="contact">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="/Logo.jpeg" alt="Talk Town" class="footer-logo">
+                <p>Connecting Stories, Connecting Peoples</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p>Email: <a href="mailto:kavindukeshava@gmail.com">kavindukeshava@gmail.com</a></p>
+                <p>Phone: <a href="tel:0715542820">071 554 2820</a> / <a href="tel:0766528596">076 652 8596</a></p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/17Pq5JNXZR/?mibextid=wwXIfr" target="_blank" aria-label="Facebook" class="social-icon facebook">
+                        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.04c-5.5 0-10 4.49-10 10.02c0 5 3.66 9.15 8.44 9.9v-7h-2.54v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89c1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02Z"/></svg>
+                    </a>
+                    <a href="https://www.youtube.com/@Sltalktown" target="_blank" aria-label="YouTube" class="social-icon youtube">
+                        <svg viewBox="0 0 24 24"><path fill="currentColor" d="m10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 .61-.03 1.3-.1 2.1c-.06.8-.15 1.43-.28 1.9c-.17.6-.47 1.06-.9 1.4c-.42.34-.95.53-1.58.57c-.84.06-1.95.1-3.34.1h-7.6c-1.39 0-2.5 0-3.34-.1c-.63-.04-1.16-.23-1.58-.57c-.43-.34-.73-.8-.9-1.4c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-.61.03-1.3.1-2.1c.06-.8.15-1.43.28-1.9c.17-.6.47-1.06.9-1.4c.42-.34.95-.53 1.58-.57c.84-.06 1.95-.1 3.34-.1h7.6c1.39 0 2.5 0 3.34.1c.63.04 1.16.23 1.58.57c.43.34.73.8.9 1.4Z"/></svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@sltalktown?_r=1&_t=ZS-957Lq874kR0" target="_blank" aria-label="TikTok" class="social-icon tiktok">
+                        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.53.02c.15 0 .3 0 .45.02c2.16.1 4.39 1.59 5.23 3.51c.62 1.41.71 2.58.55 4.03c-.01.12-.01.24-.03.35c-.01.1-.02.2-.03.3c-.01.09-.03.19-.04.28c-.01.09-.03.18-.05.27c-.02.09-.04.18-.06.27c-.02.09-.04.18-.06.27c-.02.08-.05.17-.08.25c-.03.08-.05.17-.08.25c-.03.08-.06.16-.09.24c-.03.08-.06.15-.1.23c-.03.07-.07.15-.11.22c-.04.07-.08.14-.12.21c-.04.07-.08.14-.13.2c-.05.07-.09.13-.14.2c-.05.06-.1.13-.15.19c-.05.06-.11.12-.17.18c-.06.06-.11.12-.17.18c-.06.06-.12.11-.19.17c-.06.05-.13.11-.19.16c-.07.05-.13.11-.2.15c-.07.05-.14.1-.21.15c-.07.04-.15.09-.23.13c-.08.04-.15.08-.23.11c-.08.04-.16.08-.24.11c-.08.03-.17.07-.25.1c-.08.03-.17.06-.25.09c-.09.03-.18.06-.27.08c-.09.02-.18.05-.27.07c-.09.02-.19.04-.28.06c-.09.02-.19.04-.29.05c-.1.02-.2.03-.3.04c-.1.01-.2.02-.3.03c-.11.01-.21.01-.32.02c-.11.01-.22.01-.33.01H12h-.03h-.34h-.34c-.11 0-.22-.01-.33-.02c-.11-.01-.21-.01-.32-.02c-.11-.01-.21-.01-.32-.03c-.1-.01-.2-.02-.31-.04c-.1-.02-.2-.03-.3-.06c-.1-.02-.19-.04-.29-.06c-.1-.02-.19-.05-.28-.08c-.09-.02-.18-.05-.27-.08c-.09-.03-.18-.06-.27-.09c-.09-.03-.17-.07-.26-.1c-.08-.03-.17-.07-.25-.11c-.08-.04-.16-.08-.24-.12c-.08-.04-.15-.09-.23-.13c-.08-.05-.15-.09-.23-.14c-.07-.05-.14-.1-.21-.16c-.07-.05-.14-.11-.2-.16c-.07-.06-.13-.12-.19-.18l-.13-.12c-.01-.01-.02-.02-.02-.03l-.11-.11c.01.01.01.01.02.02l-.11-.11c-.06-.06-.11-.13-.16-.2c-.05-.07-.1-.13-.15-.2c-.05-.07-.09-.14-.13-.22c-.04-.07-.08-.15-.12-.22c-.04-.08-.08-.16-.11-.24c-.03-.08-.06-.16-.09-.25c-.03-.08-.05-.17-.08-.26c-.02-.09-.04-.18-.06-.27c-.02-.09-.04-.18-.06-.27c-.02-.09-.03-.19-.05-.28c-.01-.1-.03-.19-.04-.29c-.01-.1-.02-.2-.03-.3c-.01-.1-.01-.2-.02-.3Q3.02 12.18 3.02 12q0-.18.01-.36c.01-.12.01-.24.03-.35c.01-.1.02-.2.03-.3c.01-.09.03-.19.04-.28l.05-.27c.01-.09.04-.18.06-.27c.02-.09.04-.18.06-.27c.02-.08.05-.17.08-.25c.03-.08.05-.17.08-.25c.03-.08.06-.16.09-.24c.03-.08.06-.15.1-.23c.03-.07.07-.15.11-.22c.04-.07.08-.14.12-.21c.04-.07.08-.14.13-.2c.05-.07.09-.13.14-.2c.05-.06.1-.13.15-.19c.05-.06.11-.12.17-.18c.06-.06.11-.12.17-.18c.06-.06.12-.11.19-.17c.06-.05.13-.11.19-.16c.07-.05.13-.11.2-.15c.07-.05.14-.1.21-.15c.07-.04.15-.09.23-.13c.08-.04.15-.08.23-.11c.08-.04.16-.08.24-.11c.08-.03.17-.07.25-.1c.08-.03.17-.06.25-.09c.09-.03.18-.06.27-.08c.09-.02.18-.05.27-.07c.09-.02.19-.04.28-.06c.09-.02.19-.04.29-.05c.1-.02.2-.03.3-.04c.1-.01.2-.02.3-.03c.11-.01.21-.01.32-.02c.11-.01.22-.01.33-.01H12c.15 0 .3 0 .45.02c.08.01.16.01.24.02c0 1.25.01 2.37.01 3.4c0 .34.02.66.02.94c0 .14-.01.26-.01.36h-.01c-.13-.1-.28-.19-.44-.27c-.4-.19-.84-.28-1.28-.27c-.82 0-1.58.33-2.14.93c-.49.52-.77 1.21-.77 1.94c0 .73.28 1.42.77 1.94c.56.6 1.32.93 2.14.93c1.07 0 2.02-.57 2.53-1.45c.2-.35.3-.75.3-1.15V.02Z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Talk Town Media Network .sl All rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
